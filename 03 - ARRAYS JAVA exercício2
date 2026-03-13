@@ -1,0 +1,53 @@
+
+import java.util.Scanner; 
+
+
+public class Main
+
+{
+	public static void main(String[] args) 
+
+	{
+		
+		Scanner input = new Scanner(System.in);
+	
+
+		int[] valores = new int[10];
+		int qtdpar=0;
+		int qtdimpar=0;
+	
+		System.out.println("escreva 10 valores");
+	
+		for(int i = 0; i < 10; i++)
+	
+		{
+			valores[i] = input.nextInt();
+		
+	
+	
+	
+	
+		}
+		
+			for(int i = 0; i < 10; i++)
+			{
+	
+			if(valores[i] %2==0) 
+			{
+			    qtdpar++;
+			    	System.out.println( valores[i]+" valores par");
+			}
+}
+	for(int i = 0; i < 10; i++)
+			{
+	
+			if(valores[i] %2!=0) 
+			{
+			    qtdimpar++;
+			    	System.out.println( valores[i]+" valores impar");
+			}
+}
+}
+}
+
+
